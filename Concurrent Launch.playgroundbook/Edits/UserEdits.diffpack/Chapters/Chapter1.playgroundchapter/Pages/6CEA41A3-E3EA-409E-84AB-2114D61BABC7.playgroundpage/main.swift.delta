@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>/*
+ It's the year 2030 and humankind is working on bringing people and supplies to the moon 🌙. Currently, only one rocket per week is send off to space. However, some clever scientists came up with a new launch system to execute launch sequences using concurrency ⏱. Now they can send off a lot of rockets in a small time frame which hugely improves the efficiency! And we developers are lucky because concurrency is not only available to the smart rocket scientists! We can use it in our amazing Apps 📱. To achieve this, we can use Swift's Grand Central Dispatch API.
+ 
+ This playground can be used to preview how your new piece of software will work on serial and concurrent dispatch queues! Next to the UI, you should also take a look into the function launchOnDispatchQueue(_ queue:) in LaunchpadView.swift to see that Dispatch Queues are not even that difficult! Have fun learning and speeding up your awesome applications 🚀!
+ 
+ Playground by: Marc Wiggerman
+ */
+
+import PlaygroundSupport
+
+let liveVC = RocketLaunchLiveViewController()
+PlaygroundPage.current.liveView = liveVC
+PlaygroundPage.current.needsIndefiniteExecution = true
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 1140}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
